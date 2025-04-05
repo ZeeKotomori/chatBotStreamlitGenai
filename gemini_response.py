@@ -1,7 +1,7 @@
 from google import genai
 import streamlit as st
 
-api_key = st.secrets["GEMINI_API"]
+api_key = st.secrets["gemini"]["api_key"
 client = genai.Client(
     api_key = api_key,
 )

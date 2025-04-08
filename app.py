@@ -2,7 +2,7 @@ import streamlit as st
 from gemini_response import get_response
 
 def main():
-    st.title("Zikri Bot 🤖")
+    st.title("Maysha AI 🤖")
 
     # Initialize chat history
     if "messages" not in st.session_state:
